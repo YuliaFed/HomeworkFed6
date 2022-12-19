@@ -13,8 +13,8 @@ int[] GetArrayUser(int size)
     for (int i = 0; i < size; i++)
     {
         Console.Write("Введите число массива: ");
-        int A = int.Parse(Console.ReadLine()!);
-        res[i] = A;
+        res[i] = int.Parse(Console.ReadLine()!);
+        
     }
     return res;
 }
